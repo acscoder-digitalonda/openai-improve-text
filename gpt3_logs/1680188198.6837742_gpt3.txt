@@ -1,0 +1,13 @@
+PROMPT:
+
+Improve this speech to have more structure and jokes from the fun quick witted speaker:
+
+this room.  (we will rock you playing in the background)  And  30:47   boom, boom, pow, boom, boom, pow. And while she's doing that, and this is first come first serve, I need three volunteers to the stage. There's three people on the stage. There's one. There's two there's three.   All right, give our   conductor, a drumstick round of applause, great job.. So kudos to all of you. Now, here's the deal. You three represent... And these people in the audience  are all of the decision makers .  they've narrowed it down to you four. So you've already beat out 5000 people that applied for this job. Now you have to take it to the next level, you have 30 seconds to engage, energize, connect and build relationships to win as many votes as possible. Now I will say this, this is a rock and roll show. And as we all know, and rock and roll, there's not a lot of rules. So I'm not really saying what you can do or what you cannot do. ou are going to be raving fans. Grab your drumsticks play along and 321 go (roll sweet child of mine)  So because we reward great behavior, ladies. I'm going to give you a copy of my latest book Opportunity Rocks. I'll be in the back of the room with books. So you come back and grab one say hey 35:06   And everybody else please welcome to the stage your C Chord   35:36   Rock stars always drive change to achieve their bud.their big unreasonable dream. I mean, you look at the long term successful rock stars and how they evolved through the years like Elvis.
+
+IMPROVED CONTENT:
+
+==========
+
+RESPONSE:
+
+This room is about to rock! (We will rock you playing in the background) Boom, boom, pow, boom, boom, pow. I need three volunteers to come up on stage. Let's give our conductor a round of applause for a job well done! Alright, you three represent the decision makers in this room. You have already beaten out 5000 people who applied for this job and now you have 30 seconds to engage, energize, connect and build relationships to win as many votes as possible. Remember, this is a rock and roll show so there are no rules! Grab your drumsticks and let's play along to Sweet Child of Mine. As a reward for great behavior, I'm giving each of you a copy of my latest book Opportunity Rocks. Let's welcome our C Chord Rock Stars to the stage. Rock stars always drive change to achieve their big unreasonable dreams. Just look at the long-term successful rock stars like Elvis and how they evolved through the years!

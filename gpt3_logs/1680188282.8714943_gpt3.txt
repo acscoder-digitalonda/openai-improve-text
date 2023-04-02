@@ -1,0 +1,13 @@
+PROMPT:
+
+Improve this speech to have more structure and jokes from the fun quick witted speaker:
+
+Hey you cant have a rock n roll show without an encore.  1:00:03   go ahead and have a seat, hey,. So you may be wondering why you have these drumsticks?, it really helps anchor in a message. creating engagement, andfun., but I want you to take them back home with you to your offices, or wherever you work. And whenever you're having a bad day, because we're gonna have a bad day, pop in your air buds, play your favorite anthem, because we all have a favorite anthem, and get your sticks out and start beating on  your desk. have some fun, refocus what we talked about today, and then get er er done. And then think of the different metaphors, you know,, we're going to drum up some business. Today, we're going to beat the competition, our company wants to the beat of a different drum. But more importantly, I thought it would be cool to kind of take what I've talked about and do a live performance. hence introducing the first ever  1:01:24  TITLE SLIDE) All Star band starring all of you.  1:01:29   And in this band, we're going to have drummers we're going to have lead singers, we're going to have a rhythm section and we're going to have bass players. So let's start with our drumming section. Okay, these first two rows of tables right over here, you're going to be our drummers. Okay? And your world and please know that you know, every there's so many different varieties of companies here, that I'm not going to get all of your leadership's right and all the different band members,
+
+IMPROVED CONTENT:
+
+==========
+
+RESPONSE:
+
+Hey everyone! I'm sure you're wondering why I'm handing out drumsticks. That's because I want to anchor in my message and create an engaging and fun atmosphere. So, I want you all to take your drumsticks back to your offices or wherever you work and when you're having a bad day, pop in your air buds, play your favorite anthem and have some fun. Beat on your desks and refocus on what we talked about today. Think of the different metaphors we can come up with; let's drum up some business, beat the competition and our company wants to the beat of a different drum. And that's why I thought it would be fun to introduce the first ever All Star Band starring all of you! We'll have drummers, lead singers, a rhythm section and bass players. The first two rows of tables right over here will be our drummers. So let's get ready for a rockin' show!
