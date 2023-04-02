@@ -1,0 +1,5 @@
+__pycache__
+.git
+.streamlit
+gdocs/token.json
+gdocs/credentials.json

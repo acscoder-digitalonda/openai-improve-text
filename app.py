@@ -13,7 +13,7 @@ def open_file(filepath):
         return infile.read()
 
 
-openai.api_key = "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"
+openai.api_key =  st.secrets["OPENAI_KEY"]
 
 
 def save_file(content, filepath):
