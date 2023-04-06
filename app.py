@@ -48,7 +48,7 @@ def gpt3_completion(prompt, engine='text-davinci-003', temp=0.6, top_p=1.0, toke
             print('Error communicating with OpenAI:', oops)
             sleep(1)
 
-def run_doc(x,engine='text-davinci-003'):
+def run_doc(x,prompt,engine='text-davinci-003'):
     creds = gdocs.gdoc_creds()
     document_id = gdocs.extract_document_id(x)
     chunks = gdocs.read_gdoc_content(creds,document_id)
@@ -58,7 +58,7 @@ def run_doc(x,engine='text-davinci-003'):
 
     count = 0
     for chunk in chunks:
-        prompt = open_file('prompt.txt').replace('<<SUMMARY>>', chunk)
+        prompt += open_file('prompt.txt').replace('<<SUMMARY>>', chunk)
         prompt = prompt.encode(encoding='ASCII',errors='ignore').decode()
         summary = gpt3_completion(prompt,engine)
         print('\n\n\n', count, 'of', len(chunks), ' - ', summary)
@@ -79,7 +79,8 @@ st.write('Enter your google document URL ex: https://docs.google.com/document/d/
 st.write('Make sure you shared that document with acscoder@digitalonda.com or public for everyone can read.')
           
 url = st.text_input('Enter your google docs URL')
+prompt = st.text_area('Enter your prompt here')
 if st.button('Submit'):
     with st.spinner('Please wait for the result...'):
-        rep = run_doc(url)
+        rep = run_doc(url,prompt)
         st.write('Here is your result: ', rep)
