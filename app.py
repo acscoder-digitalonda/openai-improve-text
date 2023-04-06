@@ -75,7 +75,7 @@ def run_doc(x,prompt,engine='text-davinci-003'):
  
 
 st.title('OpenAI API Demonstration')
-st.write('Enter your google document URL ex: https://docs.google.com/document/d/1FKq0wnRDkCES6PwGKZh0p-DeoZUjUd0VLfwsdxcBlkk/edit.')
+st.write('Enter your google document URL ex: https://docs.google.com/document/d/1FKq0wnRDES6PwGKZh0p-DeoZUjUd0VLfwsdxcBlkk/edit.')
 st.write('Make sure you shared that document with acscoder@digitalonda.com or public for everyone can read.')
           
 url = st.text_input('Enter your google docs URL')
