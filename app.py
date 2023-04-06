@@ -48,7 +48,7 @@ def gpt3_completion(prompt, engine='text-davinci-003', temp=0.6, top_p=1.0, toke
             print('Error communicating with OpenAI:', oops)
             sleep(1)
 
-def run_doc(x,prompt,engine='text-davinci-003'):
+def run_doc(x,pr,engine='text-davinci-003'):
     creds = gdocs.gdoc_creds()
     document_id = gdocs.extract_document_id(x)
     chunks = gdocs.read_gdoc_content(creds,document_id)
@@ -57,7 +57,9 @@ def run_doc(x,prompt,engine='text-davinci-003'):
     new_id = gdocs.create_gdoc(creds,title="OpenAI - " + engine + " - " + title)
 
     count = 0
+    
     for chunk in chunks:
+        prompt = pr
         prompt += open_file('prompt.txt').replace('<<SUMMARY>>', chunk)
         prompt = prompt.encode(encoding='ASCII',errors='ignore').decode()
         summary = gpt3_completion(prompt,engine)
